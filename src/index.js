@@ -12,10 +12,10 @@ const defaultOptions = {
 };
 
 exports.connection = (mongoUri, options = defaultOptions) => {
-    if (isConnected) {
-        return connection;
-    }
+    if (isConnected) return connection;
+
     connection = mongoose.connect(mongoUri, options);
+
     isConnected = true;
     return connection;
 };
