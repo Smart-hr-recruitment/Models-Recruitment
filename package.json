@@ -1,0 +1,23 @@
+{
+  "name": "Models-Recruitment",
+  "version": "1.0.0",
+  "description": "Database models",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smart-hr-recruitment/Models-Recruitment.git"
+  },
+  "keywords": [],
+  "author": "Lina Adamyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Smart-hr-recruitment/Models-Recruitment/issues"
+  },
+  "homepage": "https://github.com/Smart-hr-recruitment/Models-Recruitment#readme",
+  "dependencies": {
+    "mongoose": "^5.11.14"
+  }
+}
